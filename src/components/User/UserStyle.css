@@ -1,0 +1,11 @@
+.my-component-container {
+    background-color: lightblue;
+    padding: 20px;
+}
+.my-button {
+    color: blue;
+    background-color: blue;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
