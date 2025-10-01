@@ -12,6 +12,7 @@ import { Provider } from "react-redux";
 import store from "./store.js";
 import Footer from './components/Layout/Footer';
 import Header from './components/Layout/Header';
+import Calculator from './components/Calculator'
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-             <Route path="/user" element={<User />} />
+            <Route path="/user" element={<User />} />
+            <Route path="/calculator" element={<Calculator />} />
             <Route path="*" element={<NotFound />} /> {/* Catch-all for undefined routes */}
           </Routes>
           <Footer/>

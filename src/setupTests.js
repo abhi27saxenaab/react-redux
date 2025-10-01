@@ -2,4 +2,9 @@
 // allows you to do things like:
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
-import '@testing-library/jest-dom/extend-expect';
+// import '@testing-library/jest-dom/extend-expect';
+
+
+import '@testing-library/jest-dom';
+// Optional: Add this if you need to handle fetch or other globals
+globalThis.IS_REACT_ACT_ENVIRONMENT = true;

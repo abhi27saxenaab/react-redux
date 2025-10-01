@@ -116,6 +116,17 @@ function Navbar() {
                 <i className="bi bi-speedometer2 me-1"></i>
                 </Link>
               </li>
+
+
+              {/* Calculator */}
+              <li className="nav-item">
+                <Link className={`nav-link ${activeNav === 'calculator' ? 'active' : ''}`} 
+                style={activeNav === 'calculator' ? activeNavLinkStyle : navLinkStyle}
+                onClick={() => setActiveNav('calculator')}
+                to="/calculator">Calculator
+                <i className="bi bi-speedometer2 me-1"></i>
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
